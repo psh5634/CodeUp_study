@@ -1,2 +1,6 @@
-a,b = map(int,input().split())
-print((bool(a) and not(bool(b))) or (not(bool(a)) and bool(b)))
+a,b = map(int, input().split())
+
+if bool(a) != bool(b):
+    print('True')
+else: 
+    print('False')
